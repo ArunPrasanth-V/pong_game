@@ -11,7 +11,10 @@ class Paddle(Turtle):
         self.shapesize(stretch_wid=5, stretch_len=1)
 
     def mov_up(self):
-        self.goto(self.xcor(), self.ycor() + 20 )
+        self.goto(self.xcor(), self.ycor() + 20)
 
     def mov_down(self):
         self.goto(self.xcor(), self.ycor() - 20)
+
+
+
